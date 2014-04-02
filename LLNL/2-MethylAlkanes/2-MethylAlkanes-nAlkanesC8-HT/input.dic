@@ -1,0 +1,24 @@
+//-----------------------------------------------------------------//
+//     ____                    ______ __  __  ____  _  ________    //
+//    / __ \                  /  ___ |  \/  |/ __ \| |/ /  ____|   //
+//   | |  | |_ __   ___ _ __ |  (___ | \  / | |  | | ' /| |__      //
+//   | |  | | '_ \ / _ \ '_ \ \___  \| |\/| | |  | |  < |  __|     //
+//   | |__| | |_) |  __/ | | |____)  | |  | | |__| | . \| |____    //
+//    \____/| .__/ \___|_| |_|______/|_|  |_|\____/|_|\_\______|   //
+//         | |                                                     //
+//         |_|                                                     //
+//                                                                 //
+//                http://www.opensmoke.polimi.it/                  //
+//             http://creckmodeling.chem.polimi.it/                //
+//-----------------------------------------------------------------//
+
+Dictionary CHEMKIN_PreProcessor
+{
+		@Thermodynamics     	c7_c20_2methylalkanes_c8_c16_nalkanes_v1_therm_CnF_dat.txt;
+		@Transport		c7_c20_2methylkanes_c8_c16_nalkanes_v1_1_tran_CnF_dat.txt;
+		@Kinetics 		c8_2methylalkanes_c8_nalkanes_HighTemp_v1.1_CnF_mech_inp.txt; 
+		
+		@Output			kinetics-2-MethylAlkanes-nAlkanesC8-HT;
+}
+
+

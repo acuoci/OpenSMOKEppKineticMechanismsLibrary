@@ -1,0 +1,26 @@
+//-----------------------------------------------------------------//
+//     ____                    ______ __  __  ____  _  ________    //
+//    / __ \                  /  ___ |  \/  |/ __ \| |/ /  ____|   //
+//   | |  | |_ __   ___ _ __ |  (___ | \  / | |  | | ' /| |__      //
+//   | |  | | '_ \ / _ \ '_ \ \___  \| |\/| | |  | |  < |  __|     //
+//   | |__| | |_) |  __/ | | |____)  | |  | | |__| | . \| |____    //
+//    \____/| .__/ \___|_| |_|______/|_|  |_|\____/|_|\_\______|   //
+//         | |                                                     //
+//         |_|                                                     //
+//                                                                 //
+//                http://www.opensmoke.polimi.it/                  //
+//             http://creckmodeling.chem.polimi.it/                //
+//-----------------------------------------------------------------//
+
+Dictionary CHEMKIN_PreProcessor
+{
+		@Thermodynamics     	mmc6_butanol_isomers_CnF_ver7_therm_dat.txt;
+		@Transport		butanol_isomers_CnF_ver7_tran_dat.txt;
+		@Kinetics 		mmc5_butanol_isomers_CnF_ver7_mech_lowPflames_inp.txt; 
+		
+		@Output			kinetics-Butanol_LowPressure;
+		
+	//	@OutputOldStyle		true;
+}
+
+

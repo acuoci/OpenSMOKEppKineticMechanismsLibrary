@@ -1,0 +1,1 @@
+ck2cti --input c8_c16_nalkanes_v1_mech_CnF_high_T_inp.txt --thermo c7_c20_2methylalkanes_c8_c16_nalkanes_v1_therm_CnF_dat.txt --transport c7_c20_2methylkanes_c8_c16_nalkanes_v1_1_tran_CnF_dat.txt --permissive
