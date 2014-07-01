@@ -17,7 +17,7 @@ Dictionary CHEMKIN_PreProcessor
 		@Thermodynamics     	MecanismMethylDecanoate_thermo.txt;
 		@Kinetics 		MecanismMethylDecanoate.txt; 
 		
-		@Output			kinetics-Alkanes-Methyldecanoate;
+		@Output			kinetics-Esters-Methyldecanoate;
 }
 
 

@@ -18,7 +18,7 @@ Dictionary CHEMKIN_PreProcessor
 		@Transport		POLIMI_TOT_NOX_1311.TRC;
 		@Kinetics 		POLIMI_C1C3_LTHT_1311.CKI; 
 		
-		@Output			kinetics-POLIMI_H2CO_1311;
+		@Output			kinetics-POLIMI_C1C3_LTHT_1311;
 		
 		@Comments 		CRECK-Signature;
 		

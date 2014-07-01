@@ -92,3 +92,16 @@ cd 2-MethylAlkanes/2-MethylAlkanes-nAlkanesC12/ && OpenSMOKE_CHEMKIN_PreProcesso
 cd 2-MethylAlkanes/2-MethylHeptane-Skeletal/ && OpenSMOKE_CHEMKIN_PreProcessor.sh && cd .. && cd ..
 cd 2-MethylAlkanes/nAlkanesC16-HT/ && OpenSMOKE_CHEMKIN_PreProcessor.sh && cd .. && cd ..
 cd ..
+
+#Lu
+cd Lu
+cd Heptane/sk188_C7/ && OpenSMOKE_CHEMKIN_PreProcessor.sh && cd .. && cd ..
+cd PFR3/sk171/ && OpenSMOKE_CHEMKIN_PreProcessor.sh && cd .. && cd ..
+cd IsoOctane/sk233_C8/ && OpenSMOKE_CHEMKIN_PreProcessor.sh && cd .. && cd ..
+cd ..
+
+#Dryer
+cd Dryer
+cd JetFuelSurrogate/ && OpenSMOKE_CHEMKIN_PreProcessor.sh && cd ..
+cd MethylFormate/ && OpenSMOKE_CHEMKIN_PreProcessor.sh && cd .. 
+cd ..

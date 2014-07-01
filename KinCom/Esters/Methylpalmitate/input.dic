@@ -17,7 +17,7 @@ Dictionary CHEMKIN_PreProcessor
 		@Thermodynamics     	MethylPalmitate_thermo.txt;
 		@Kinetics 		MethylPalmitate.txt; 
 		
-		@Output			kinetics-Alkanes-Methylpalmitate;
+		@Output			kinetics-Esters-Methylpalmitate;
 }
 
 

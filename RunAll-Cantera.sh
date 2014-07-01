@@ -36,6 +36,7 @@ cd KinCom
 cd Alkanes/nHeptane/ && ./Cantera.sh && cd .. && cd ..
 cd Alkanes/nDecane/ && ./Cantera.sh && cd .. && cd ..
 cd Alkanes/nDodecane/ && ./Cantera.sh && cd .. && cd ..
+cd Esters/Methylbutanoate/ && ./Cantera.sh && cd .. && cd ..
 cd Esters/Methyldecanoate/ && ./Cantera.sh && cd .. && cd ..
 cd Esters/Methylpalmitate/ && ./Cantera.sh && cd .. && cd ..
 cd ..
@@ -91,4 +92,17 @@ cd 2-MethylAlkanes/2-MethylAlkanes-nAlkanesC8-LT-HT/ && ./Cantera.sh && cd .. &&
 cd 2-MethylAlkanes/2-MethylAlkanes-nAlkanesC12/ && ./Cantera.sh && cd .. && cd ..
 cd 2-MethylAlkanes/2-MethylHeptane-Skeletal/ && ./Cantera.sh && cd .. && cd ..
 cd 2-MethylAlkanes/nAlkanesC16-HT/ && ./Cantera.sh && cd .. && cd ..
+cd ..
+
+#Dryer
+cd Dryer
+cd JetFuelSurrogate/ && ./Cantera.sh && cd ..
+cd MethylFormate/ && ./Cantera.sh && cd ..
+cd ..
+
+#Lu
+cd Lu
+cd Heptane/sk188_C7/ && ./Cantera.sh && cd .. && cd ..
+cd IsoOctane/sk233_C8/ && ./Cantera.sh && cd .. && cd ..
+cd PRF3/sk171/ && ./Cantera.sh && cd .. && cd ..
 cd ..
